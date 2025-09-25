@@ -3,6 +3,7 @@
  * @param squares The current state of the board
  * @returns The winner and winning line, or null if no winner
  */
+
 export function calculateWinner(squares: Array<string | null>) {
   // All possible winning lines (rows, columns, diagonals)
   const lines = [
