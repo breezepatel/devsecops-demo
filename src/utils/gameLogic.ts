@@ -15,7 +15,6 @@ export function calculateWinner(squares: Array<string | null>) {
     [0, 4, 8], // diagonal top-left to bottom-right
     [2, 4, 6], // diagonal top-right to bottom-left
   ];
-
   // Check each winning line
   for (const [a, b, c] of lines) {
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
